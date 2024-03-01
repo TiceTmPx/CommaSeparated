@@ -13,7 +13,8 @@
         }
     ],
     "require": {
-        "ticetmp/comma-separated" : "*"
+        "ticetmp/comma-separated" : "*",
+        "composer/installers" : "*"
     },
     "repositories" : [
         {
