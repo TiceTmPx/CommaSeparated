@@ -1,9 +1,8 @@
 <?php
 namespace TiceTmP\CommaSeparated;
-
+require __DIR__.'/../../vendor/autoload.php';
 class getQuery {
-    public function getRelationWithCommaSeparated($masterTable,$relationTable, $relationFieldName, $idsField, $resultFieldName)
-    {
+    static public function getRelationWithCommaSeparated($masterTable,$relationTable, $relationFieldName, $idsField, $resultFieldName){
         if (empty($masterTable) || empty($relationTable) || empty($relationFieldName) || empty($idsField) || empty($resultFieldName)) 
             throw new \Exception('All parameters are required');
         return "(SELECT  GROUP_CONCAT(b.$relationFieldName ORDER BY b.id)
