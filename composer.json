@@ -21,5 +21,6 @@
             "type": "vcs",
             "url": "https://github.com/TiceTmPx/CommaSeparated"
         }
-    ]
+    ],
+    "license": "MIT"
 }

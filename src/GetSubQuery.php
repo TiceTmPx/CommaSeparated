@@ -2,7 +2,7 @@
 
 class GetSubQuery {
 
-    static public function getRelationWithCommaSeparated($masterTable,$relationTable, $relationFieldName, $idsField, $resultFieldName)
+    static public function getRelationWithCommaSeparated($masterTable, $relationTable, $relationFieldName, $idsField, $resultFieldName)
     {
         if (empty($masterTable) || empty($relationTable) || empty($relationFieldName) || empty($idsField) || empty($resultFieldName)) 
             throw new \Exception('All parameters are required');
