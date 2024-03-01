@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'TiceTmP\\CommaSeparated\\' => array($baseDir . '/src'),
+    'TiceTmP\\' => array($baseDir . '/src'),
 );
