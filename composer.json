@@ -12,7 +12,9 @@
             "name": "TiceTmP"
         }
     ],
-    "require": {},
+    "require": {
+        "ticetmp/comma-separated" : "*"
+    },
     "repositories" : [
         {
             "type": "vcs",
